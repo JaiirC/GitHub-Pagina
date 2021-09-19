@@ -33,3 +33,52 @@ nav > a{
     justify-content: right;
     display: table-cell;
 }
+
+.titulo{
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.juegos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.juegos .juego{
+    background: #064c8677;
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+
+
+
+.juegos .juego > .contenido-texto-juego{
+    width: 60%;
+    color: rgb(3, 3, 3);
+}
+
+.juegos .juego > .contenido-texto-juego p{
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+.juegos .juego{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.juegos .juego img{
+    padding-top: 1cm;
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border: 80%;   
+}
