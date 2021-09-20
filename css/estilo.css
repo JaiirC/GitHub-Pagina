@@ -84,7 +84,19 @@ nav > a{
 }
 
 .footer{
+ 
     display: flex;
     justify-content: space-around;
-    background-color: deepskyblue;
+    background: #076585;  
+    background: -webkit-linear-gradient(to right, #fff, #076585); 
+    background: linear-gradient(to right, #fff, #076585);
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+    
+}
+.footer a{
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    font-family: Verdana, sans-serif;
 }
